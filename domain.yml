@@ -1,0 +1,224 @@
+actions:
+- action_check_number
+- action_default_fallback
+- action_intensity
+- action_place_search
+- action_side
+- summarize
+- symptom_search
+- utter_anything_else_icanhelpwith
+- utter_appointment_made
+- utter_appointment_maker
+- utter_ask_age
+- utter_ask_doc_name
+- utter_ask_doctor
+- utter_ask_doyouwantappointment
+- utter_ask_intensity
+- utter_ask_location
+- utter_ask_name
+- utter_ask_phone
+- utter_ask_service
+- utter_ask_side
+- utter_ask_spec
+- utter_ask_symptoms
+- utter_cheer_up
+- utter_did_that_help
+- utter_doc_info
+- utter_goodbye
+- utter_greet
+- utter_greet_name
+- utter_happy
+- utter_iamabot
+- utter_im_sorry
+- utter_intensity_buttons
+- utter_isthatcorrect
+- utter_service_response
+- utter_submit
+- utter_welcome
+entities:
+- age
+- amenity
+- doctor
+- intensity
+- location
+- name
+- phone
+- service
+- side
+- specialty
+- symptom
+- symptoms
+- time
+forms:
+- doc_form
+- form_questions
+- location_form
+intents:
+- sick:
+    triggers: utter_im_sorry
+- location_entry
+- side
+- intensity:
+    triggers: action_intensity
+- symptoms
+- affirm
+- doc_info_with_name
+- form_entry
+- picking_specialty
+- make_appointment
+- pick_time
+- doc_name
+- greet:
+    triggers: utter_greet
+- time
+- thanks:
+    triggers: utter_welcome
+- deny
+- summarize:
+    triggers: utter_isthatcorrect
+- out_of_scope
+- goodbye:
+    triggers: utter_goodbye
+- stop
+- mood_great:
+    triggers: utter_happy
+- mood_unhappy:
+    triggers: utter_cheer_up
+- bot_challenge
+- tell_me_a_joke
+- im_bored
+- greet_with_name:
+    triggers: utter_greet_name
+- doc_info
+- hello_world
+- info_services
+- closest_thing
+- location_based_services
+session_config:
+  carry_over_slots_to_new_session: true
+  session_expiration_time: 60
+slots:
+  age:
+    type: unfeaturized
+  amenity:
+    type: unfeaturized
+  doctor:
+    type: unfeaturized
+  intensity:
+    type: unfeaturized
+  location:
+    type: unfeaturized
+  name:
+    type: unfeaturized
+  phone:
+    type: unfeaturized
+  requested_slot:
+    type: unfeaturized
+  side:
+    type: unfeaturized
+  symptom:
+    type: unfeaturized
+  time:
+    type: unfeaturized
+templates:
+  utter_anything_else_icanhelpwith:
+  - text: Can I help you with something else?
+  utter_appointment_made:
+  - text: Appointment made for {time} with {doctor} for {name}!
+  utter_appointment_maker:
+  - buttons:
+    - payload: /pick_time
+      title: 1:30 pm Tomorrow
+    - payload: /pick_time
+      title: 2:30 pm Tomorrow
+    - payload: /pick_time
+      title: 3:30 pm Tomorrow
+    - payload: /pick_time
+      title: 4:30 pm Tomorrow
+    text: 'Pick the best time for yourself:'
+  utter_ask_age:
+  - text: Please enter your age
+  utter_ask_doc_name:
+  - text: Do you have a particular doctor in mind?
+  utter_ask_doctor:
+  - text: What's the doctor's name?
+  utter_ask_doyouwantappointment:
+  - text: Do you want to book an appointment?
+  utter_ask_intensity:
+  - text: What's the intensity of discomfort?
+  utter_ask_location:
+  - text: Could you tell me your location or zipcode?
+  utter_ask_name:
+  - text: Can you please enter your full name?
+  utter_ask_phone:
+  - text: Please enter your phone number
+  utter_ask_service:
+  - buttons:
+    - payload: /location_based_services
+      title: Ambulance Services
+    - payload: /location_based_services
+      title: Home Check-up Services
+    - payload: /location_based_services
+      title: Delivery Services
+    text: What kind of services would you like to know about?
+  utter_ask_side:
+  - text: 'Please specify region of discomfort if applicable:'
+  utter_ask_spec:
+  - text: Please pick a specialty
+  utter_ask_symptoms:
+  - text: What are the symptoms you're facing?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_doc_info:
+  - text: "{doctor}:\n \t Name:{doctor}\n \tSpecialty:Cardiology\n \tExperience:5\
+      \ years\n \tContact:9827482038"
+  utter_goodbye:
+  - text: Have a nice day!
+  utter_greet:
+  - text: "Hey! I'm the healthcare chatbot! How can I help you?\nI can:\n\tTell you\
+      \ about our services\n\tAnalyze your symptoms\n\tMake an appointment for you\n\
+      \tGive you information about Doctors"
+  utter_greet_name:
+  - text: "Hello, {name}! I'm the healthcare chatbot! How can I help you?\nI can:\n\tTell you\
+      \ about our services\n\tAnalyze your symptoms\n\tMake an appointment for you\n\
+      \tGive you information about Doctors"
+  utter_happy:
+  - text: Great, carry on!
+  utter_iamabot:
+  - text: I am a healthcare chatbot, powered by Rasa.
+  utter_im_sorry:
+  - text: I'm sorry. I'd have to ask some questions to get you registered.
+  utter_intensity_buttons:
+  - buttons:
+    - payload: /intensity
+      title: 1
+    - payload: /intensity
+      title: 2
+    - payload: /intensity
+      title: 3
+    - payload: /intensity
+      title: 4
+    - payload: /intensity
+      title: 5
+    - payload: /intensity
+      title: 6
+    - payload: /intensity
+      title: 7
+    - payload: /intensity
+      title: 8
+    - payload: /intensity
+      title: 9
+    - payload: /intensity
+      title: 10
+    text: What's the intensity of pain?
+  utter_isthatcorrect:
+  - text: Is that correct?
+  utter_service_response:
+  - text: Yes, there are {service} services provided at {location}
+  utter_submit:
+  - text: Your name is {name}, age is {age} and phone number is {phone}. Is that correct?
+  utter_welcome:
+  - text: No problem!
