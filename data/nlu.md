@@ -1,0 +1,637 @@
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+- ogod mroning
+- good mroning
+- mornin
+- evenin
+- howdy
+- hello!
+- hey!
+
+## intent:tell_me_a_joke
+- tell me a joke
+- I wanna hear a joke
+- Joke
+
+## intent:im_bored
+- I'm bored
+- I'm bored to death
+- I can't say that I find this very interesting.
+- I was dying of boredom.
+- I've been bored since morning
+- I'm so bored today
+- What should I do?
+- hey, I'm bored, can you give me tips on what to do?
+
+## intent:greet_with_name
+- hey, my name is [name](name)
+- hello, my name is [name](name)
+- hi, my name is [name](name)
+- good morning, my name is [name](name)
+- good evening, my name is [name](name)
+- hey there, my name is [name](name)
+- ogod mroning, my name is [name](name)
+- good mroning, my name is [name](name)
+- mornin, my name is [name](name)
+- evenin, my name is [name](name)
+- howdy, my name is [name](name)
+- hey, I'm [name](name)
+- hello, I'm [name](name)
+- hi, I'm [name](name)
+- hey, I'm [name2](name)
+- hello, I'm [name3](name)
+- hi, I'm [name4](name)
+- hey, I'm [name4](name)
+- hello, I'm [name5](name)
+- good morning, I'm [name](name)
+- good evening, I'm [name](name)
+- hey there, I'm [name](name)
+- ogod mroning, I'm [name](name)
+- good mroning, I'm [name](name)
+- mornin, I'm [name](name)
+- evenin, I'm [name](name)
+- howdy, myself [name](name)
+- hello, myself [name](name)
+- hi, myself [name](name)
+- good morning, myself [name](name)
+- good evening, myself [name](name)
+
+## intent:sick
+- I feel unwell
+- I feel sick
+- I don't feel well
+- I'm facing some symptoms
+- I am sick
+- I need medical help
+- I am unwell
+- I'm feeling unwell
+- I'm sick
+- im sick
+- analyse my symtoms
+- analyze my SymptomS
+- analyse my symptoms
+
+## intent:side
+- [left](side)
+- [right](side)
+- [both](side)
+
+## intent:symptoms
+- I have a [blocked rt ear](symptom)
+- I have a [BILATERAL EAR BLOCK](symptom)
+- I have [both ear ache](symptom)
+- I have [BOTH EAR ACHE & TENDER + BLOCKED](symptom)
+- I have [BOTH EAR BLOCKED](symptom)
+- I have [BOTH EAR ACHE & TENDER + BLOCKED nose congestion](symptom)
+- I have [both ear blocked  &  decreased hearing + Right ear aching](symptom)
+- I have [both ear ache and hard of hearing](symptom)
+- I have [both ear blocked  &  decreased hearing + aching](symptom)
+- I have [both ear blocked  &  decreased hearing recurrent sore throat odynophagia stertor](symptom)
+- I have [both ear pressure sensation, ringing and blocked](symptom)
+- I have a [Ear pain BE](symptom)
+- I have a [f.b lt ear](symptom)
+- I have a [f.b rt ear](symptom)
+- I have a [FRONTAL HEAD ACHE,  ,  pain facial pain and pressure, nose congestion](symptom)
+- I have a [frontal headache, facial pain and pressure, nose congestion,  post nasal discahrge and cough](symptom)
+- I have a [frontal headache, facial pain and pressure, nose congestion,  post nasal discahrge, reflux and nose blocked](symptom)
+- I have a [frontal headache, facial pain and pressure, nose congestion,  post nasal discahrge, reflux and cough](symptom)
+- I have a [headache](symptom)
+- I have a [left ear ache radiating to head and neck](symptom)
+- [NASAL BLOCK, HEADACHE](symptom)
+- I have a [NOSE BLOCK & CONGESTION + Post nasal discharge  & headache, sneezing, wheezing and itchy nose](symptom)
+- [SPASMODIC COUGH, BREATHLESSNESS, NOSE CONGESTION, HEADACHE, REFLUX, SORE THROAT](symptom)
+- I have a [migraine headache](symptom)
+- I have a [known case of migraine on medications](symptom)
+- I have a [acute migraine headache](symptom)
+- I have a [PAIN AND REDNESS OF THE EYES SINCE THE PAST](symptom)
+- I have a [REDNESS OF EYES SINCE THE PAST FEW DAYS WITH DRYNESS](symptom)
+- I have [irritation eyes](symptom)
+- I have [itching eyes](symptom)
+- I have a [ BURNING EYE PAIN BOTH EYES](symptom)
+- I have a [defective  vision  & discomfort in both eyes](symptom)
+- I have a [red eye , itching  , Discharge. - both eyes](symptom)
+- [Transient blurring of vision  , discomfort - both eyes](symptom)
+- I have a [headaches body aches burning eyes](symptom)
+- [HISTORY OF REDNESS OF EYES AND MYALGIAS FOR THE PAST FEW DAYS](symptom)
+- I have a [nasal congestion](symptom)
+- I have a [nasal congestion, blocked nose](symptom)
+- I have a [nose blockage running nose breathing difficulty](symptom)
+- I have a [sore throat, block nose](symptom)
+- I have a [sore throat, runny nose](symptom)
+- I have a [pain in throat and blocked nose and runnyn nose](symptom)
+- I have a [blocked nose , throat irritation and cough](symptom)
+- [fever,body pain,cough,runny nose](symptom)
+- [newly diagnosed type 2 diabetes](symptom)
+- I have a [runny and blocked nose , throat pain and cough](symptom)
+- I have a [runny nose and throat pain mild cough](symptom)
+- I have [delayed teething](symptom)
+- I have [teething pains](symptom)
+- I have [bleeding gums and carious teeth and difficulty to chew](symptom)
+- I have [bleeding gums and sensitive teeth](symptom)
+- I have a [caries painful  teeth ](symptom)
+- I have a [bleeding gums and sensitive and deposits on teeth ](symptom)
+- I have a [BROKEN & decayed  teeth in   right upper posterior region](symptom)
+- I have a [bleeding  gums & sensitive teeth](symptom)
+- I have a [bleeding  gums & sensitive teeth  and caries ](symptom)
+- I have a [bleeding &SWOLLEN gums & deposits in the teeth](symptom)
+- I have a [bleeding gums , sensitive carious teeth](symptom)
+- I have a [broken  caries teeth & difficulty in chewing](symptom)
+- I have a [broken root filled teeth](symptom)
+- I have a [broken teeth , difficulty in chewing](symptom)
+- I have a [broken teeth in lower right posterior region](symptom)
+- I have a [BROKEN TEETH IN UPPER LT POST. REGION](symptom)
+- I have a [broken teeth in upper right posterior region](symptom)
+- I have a [calculus deposits on teeth](symptom)
+- I have a [crowded and forwardly placed front teeth](symptom)
+- I have a [crowded and displaced teeth](symptom)
+- I have a [crowded and forwardly placed teeth](symptom)
+- I have a [crowding and forwardly placed front teeth](symptom)
+- I have a [crowding of fully erupted teeth](symptom)
+- I have a [crowding of front teeth and improper bite](symptom)
+- I have a [decay & broken teeth  in  lower right POSTERIOR region](symptom)
+- I have a [decay & broken teeth in  lower right posterior region](symptom)
+- I have a [decay & broken teeth  in left upper posterior region](symptom)
+- I have a [decay & broken teeth in  lower left posterior region](symptom)
+- I have a [decay & broken teeth in  left upper posterior region](symptom)
+- I have a [decay & broken teeth lower left posterior region](symptom)
+- I'm experiencing [decay & broken teeth right upper posterior region](symptom)
+- I'm experiencing [decay & broken teeth in  right upper posterior region](symptom)
+- I'm experiencing [decay & broken teeth upper left posterior region](symptom)
+- I'm experiencing [decay & broken teeth upper right posterior region](symptom)
+- I'm experiencing [decay & broken teeth lower left posterior](symptom)
+- I have a [decay & broken teeth right lower posterior region](symptom)
+- I have a [decay & broken teeth lower right posterior region](symptom)
+- I have a [decay & sensitivity teeth in  left  lower posterior region](symptom)
+- I have a [decay & broken teeth upper anterior region](symptom)
+- I have a [decay & sensitivity teeth in  right upper posterior region](symptom)
+- I have a [decay & sensitivity teeth right upper posterior region](symptom)
+- I have a [decayed & broken teeth in lower left posterior region](symptom)
+- I have a [decay teeth upper right posterior region](symptom)
+- I'm experiencing [decayed & sensitivity in upper left posterior region](symptom)
+- I'm experiencing [decayed & broken teeth in upper right posterior region](symptom)
+- I'm experiencing [decayed and sensitivity in lower lt posterior region](symptom)
+- I'm experiencing [decayed teeth](symptom)
+- I'm experiencing [DECAYED TOOTH](symptom)
+- I'm experiencing I'm experiencing [dental caries , sensitive to cold](symptom)
+- I'm experiencing [dental caries](symptom)
+- I'm experiencing [dental pain](symptom)
+- I'm experiencing [dental check up](symptom)
+- I'm experiencing [deposits in the teeth   & stains](symptom)
+- I'm experiencing [deposits and bleeding gums and sensitivity in teeth](symptom)
+- I have [deposits in the teeth & bleeding gums & stains](symptom)
+- I have [deposits in the teeth](symptom)
+- I have [deposits in the teeth & stains](symptom)
+- I have [deposits in the teeth  &bleeding gums](symptom)
+- I have [deposits on teeth](symptom)
+- I have [neck and shoulder pain](symptom)
+- I have [neck pain](symptom)
+- I have [neck pain radiating to L shoulder](symptom)
+- I have [Pain in left shoulder](symptom)
+- I have [Pain in neck](symptom)
+- I have [Rt shoulder pain and stiffness](symptom)
+- I have [dysuria  LOWER ABDOMEN PAIN ](symptom)
+- I have [dysuria ](symptom)
+- I have [dysuria lower abdomen BACK PAIN ](symptom)
+- I have [dysuria lower abdomen pain ](symptom)
+- I have [cough cold chest congestion asthma](symptom)
+- I have [diahorea abdomen pain ](symptom)
+- I have [cough cold chest congestion ](symptom)
+- I'm experiencing [dysuria lower abdomen ](symptom)
+- I'm experiencing [pain dysuria LOIN PAIN](symptom)
+- I'm experiencing [HEADACHE frontal ](symptom)
+- I have [joint pain leg swelling ](symptom)
+- I have [diahorea  4to 5 times abdomne pain](symptom)
+- I have [low back pain](symptom)
+- I have [diahorea  4to 5 times](symptom)
+- I have [POLYURIA dysuria](symptom)
+- I'm experiencing [low back pain  difficuty bending ](symptom)
+- I'm experiencing [HEADACE     neck pain difficult moving neck ](symptom)
+- I'm experiencing [took  medicine  NO RELIEF ](symptom)
+- I'm experiencing [HEADACHE frontal hemicranial ](symptom)
+- I'm experiencing [HEADACE](symptom)
+- I have [HEADACE    cold fever](symptom)
+- I have [cold rhinitis ](symptom)
+- I have [HEADACE    nausea diziness](symptom)
+- I'm experiencing [HEADACE    diziness FEVER ](symptom)
+- I have [HEADACE     neck pain diziness ](symptom)
+- I have [HEADACE    diziness POSITIONAL ](symptom)
+- I have [cold rhinitis blocked nose ](symptom)
+- I have [cold rhinitis HEADACHE FEVER](symptom)
+- I'm experiencing [HEADACE     neck pain ](symptom)
+- I'm experiencing [HEADACE   fever](symptom)
+- I'm experiencing [cold rhinitis HEADACHE ](symptom)
+- I'm experiencing [HEADACE  diziness   neck pain](symptom)
+- I'm experiencing I'm experiencing [HEADACE   fever BODY PAIN ](symptom)
+- I'm experiencing [HEADACE    nausea](symptom)
+- I have [HEADACE    diziness](symptom)
+- I have [HEADACHE    FRONTal](symptom)
+- I have [HEADACE   diziness ](symptom)
+- I have [HEADACHE    diziness ](symptom)
+- I have [HEADACE  diziness ](symptom)
+- I have [HEADACHE   fever body pain ](symptom)
+- I have [HEADACHE    OCCIPIATL diziness](symptom)
+- [HEADACHE   fever](symptom)
+- I have [HEADACHE   fever body pain chilling ](symptom)
+- I have [HEADACHE   diziness ](symptom)
+- I have [HEADACE   fever BODY PAIN chills](symptom)
+- I think I have a [abd discomfort](symptom)
+- I think I have a [abd pain](symptom)
+- I think I have a [abd pain,constipation](symptom)
+- I think I have a [abd pain,back pain](symptom)
+- I think I have a [abd pain,dysuria,hematuria](symptom)
+- I think I have a [abd pain,recurrent](symptom)
+- I think I have a [abd pain,chest discomfort](symptom)
+- I think I have a [abd pain,vomiting](symptom)
+- I think I have a [abd pain,loose stools](symptom)
+- I think I have a [abd pain,dysuria](symptom)
+- I think I have a [abd pain,vomiting,loose stools](symptom)
+- I think I have a [abdomen  pain  epigastric ](symptom)
+- I think I have a [ABDOMEN PAIN ](symptom)
+- I think I have a [abdomen pain  GERD](symptom)
+- I think I have a [abdomen pain diahorea](symptom)
+- I think I have a [abdomen pain gas  burping](symptom)
+- I think I have a [abdominal  BLOATING INDIGESTION ](symptom)
+- I think I have a [abdominal  BLOATING ](symptom)
+- I think I have a [abdominal  discomfort/dyspepsia](symptom)
+- I think I have a [abdominal  BLOATING  pain](symptom)
+- I think I have a [abdominal  BLOATING constipation ](symptom)
+- I think I have a [abdominal  pain](symptom)
+- I think I have a [abdominal  pain  heartburn ](symptom)
+- I think I have a [abdominal  discomfort](symptom)
+- I think I have a [abdominal  pain  BLOATING](symptom)
+- I think I have a [abdominal bloatedness](symptom)
+- I think I have a [abdominal  pain right lower abdomen](symptom)
+- I think I have a [abdominal cramps](symptom)
+- I think I have a [abdominal discofort](symptom)
+- I think I have a [abdominal bloatedness, heartburns](symptom)
+- I think I have a [abdominal discomfort](symptom)
+- I think I have a [abdominal bloating](symptom)
+- I think I have a [abdominal discomfort/nausea/lose of appetite](symptom)
+- I think I have a [abdominal distension](symptom)
+- I think I have a [abdominal discomfort/dyspepsia](symptom)
+- I think I have a [abdominal discomfort /dyspepsia](symptom)
+- I feel [abdominal pain](symptom)
+- I feel [abdominal pain  diahorea](symptom)
+- I feel [abdominal pain  bloating](symptom)
+- I feel [abdominal pain  heartburn](symptom)
+- I feel [abdominal pain  blaoting](symptom)
+- I feel [abdominal pain bloating constipation](symptom)
+- I feel [abdominal pain bloating](symptom)
+- I feel [abdominal pain h/o gastritis](symptom)
+- I feel [abdominal pain fever](symptom)
+- I feel [abdominal pain gastritis](symptom)
+- I feel [abdominal pain left loin pain](symptom)
+- I feel [abdominal pain nausea](symptom)
+- I feel [abdominal pain on and off, with cramping](symptom)
+- I feel [abdominal pain nausea diahorrea](symptom)
+- I feel [abdominal pain vomiting](symptom)
+- I feel [abdominal pain, bloating](symptom)
+- I feel [abdominal pain, cramping, on an off](symptom)
+- I feel [abdominal pain, diarrhea, distension](symptom)
+- I feel [abdominal pain, diarrhea, nausea](symptom)
+- I feel [abdominal pain, diarrhea, vomiting](symptom)
+- I feel [abdominal pain, diarrhea, nausea, fever](symptom)
+- I feel [abdominal pain, distension, diarrhea](symptom)
+- I think I have a [abdominal pain, diarrhea, vomiting, fever](symptom)
+- I'm experiencing [abdominal pain, nausea](symptom)
+- I think I have a [abdominal pain, distension](symptom)
+- I'm experiencing [abdominal pain, nausea, vomiting, diarrhea](symptom)
+- I'm experiencing [abdominal pain, repeated vomiting ](symptom)
+- I think I have a [abdominal pain, vomiting](symptom)
+- I think I have a [abdominal pain, vomiting, fever](symptom)
+- I'm experiencing [abdominal pain, vomiting, diarrhea, fever](symptom)
+- I think I have a [abdominal pain,distension](symptom)
+- I'm experiencing [abdominal pain, vomiting, diarrhea](symptom)
+- I think I have a [abdominal pain,dysuria,hematuria](symptom)
+- I think I have a [abdominal pain,dysuria](symptom)
+- I think I have a [abdominal pain/GERD](symptom)
+- I'm experiencing [abdominal pain,loose stools](symptom)
+- I think I've a [severe staining, plaque and calculus on upper and lower teeth](symptom)
+- I think I have a [headache](symptom)
+- I think I've a [Burn injury with hot oil at home while cooking on 19/10/19 at around 2am](symptom)
+- I think I have a [itchy scally rash on the hand and leg](symptom)
+- I think I've a [nail disorder and pallor and xerosis of skin](symptom)
+- I have [stomach ache](symptom)
+- I'm experiencing [nausea](symptom)
+- I feel [depressed](symptom)
+- I feel [unwell](symptom)
+- I have [chest pain](symptom)
+- I have [general weakness](symptom)
+- I have [discomfort](symptom)
+- I have [dizziness](symptom)
+- I have [joint pain](symptom)
+- I have [palpitation](symptom)
+- I have [gases](symptom)
+- I have [acidity](symptom)
+- I have [ALICO LIFE INSURACE](symptom)
+- I have [anemia](symptom)
+- I have [anxiety](symptom)
+- I have [skin allergy](symptom)
+- I have [weakness, fatigue, tiredness](symptom)
+- I have [chest discomfort and heaviness, palpitation, persistent since with multiple joint pain and dizziness ](symptom)
+- I have [chest  discomfort on breathing](symptom)
+- I have [decay & broken teeth in  right upper posterior region](symptom)
+- I have [difficulty in opening mouth .impacted teeth](symptom)
+- I have a [headache and diziness](symptom)
+- i have a [headache](symptom)
+- my [arm hurts](symptom)
+- ive a [headache](symptom)
+- i have [ear pain](symptom)
+- i have [leg pain](symptom)
+- I am [anxious](symptom)
+- [ALICO LIFE INSURACE](symptom)
+- [anemia](symptom)
+- [anxiety](symptom)
+- [skin allergy](symptom)
+- [weakness, fatigue, tiredness](symptom)
+- [chest discomfort and heaviness, palpitation, persistent since with multiple joint pain and dizziness ](symptom)
+- [chest  discomfort on breathing](symptom)
+- [decay & broken teeth in  right upper posterior region](symptom)
+- [difficulty in opening mouth .impacted teeth](symptom)
+- [headache and diziness](symptom)
+- [headache](symptom)
+- [arm hurts](symptom)
+- [ear pain](symptom)
+- [leg pain](symptom)
+
+## intent:intensity
+- [1](intensity)
+- [2](intensity)
+- [3](intensity)
+- [4](intensity)
+- [5](intensity)
+- [6](intensity)
+- [7](intensity)
+- [8](intensity)
+- [9](intensity)
+- [10](intensity)
+
+## intent:doc_info
+- I want to know about a doctor
+- I wish to know baout a doctor
+- I need information on a doctor
+- Can you tell me about a doctor
+- how are the doctors in your clinic?
+- can you tell me about [Dr. Tyagi](doctor)
+
+## intent:doc_info_with_name
+- Can you tell me about [Dr. Name](doctor)
+- Can you show me [Dr. Name](doctor) resume?
+- I want ot know about [Dr. Name2](doctor)
+- I want to know about [Dr. Name2](doctor)
+- I wish to see [Dr. Name3](doctor)'s resume
+- Is [Dr. Name4](doctor) good?
+- How is [Dr. Name5](doctor)?
+
+## intent:closest_thing
+- Where's the closest [hospital](amenity) in [California](location)
+- Tell me the closest [hospital](amenity)
+- Where's the nearest [hospital](amenity)
+- Tell me the nearest [hospital](amenity)
+- Tell me the closest [hospital](amenity) in [California](location)
+- Do I have a [hospital](amenity) near me?
+- Do I have a [clinic](amenity) close to me?
+- Do I have a [clinic](amenity) cloes to me?
+- where is the closest [hospital](amenity)?
+
+## intent:info_services
+- I need to know about the services you provide.
+- tell me about your services
+- what services do you provide
+- what services do you have
+- what kind of services do you provide
+- what kind of services do you have?
+- can you tell me about the services you provide.
+
+## intent:location_entry
+- [New Jersey](location)
+- [California](location)
+- [New York](location)
+- [Texas](location)
+- [Los Angeles](location)
+- [Florida](location)
+- [Delhi](location)
+- [Gurgaon](location)
+- [UP](location)
+- [Haryana](location)
+- [Vegas](location)
+- [Livingston](location)
+
+## intent:picking_specialty
+- [CARDIOLOGY](specialty)
+- [CHIROPRACTOR](specialty)
+- [DENTAL](specialty)
+- [DERMATOLOGY](specialty)
+- [E.N.T](specialty)
+- [ENDOCRINOLOGY](specialty)
+- [GASTROENTEROLOGY](specialty)
+- [GENERAL](specialty)
+- [GENERAL SURGERY](specialty)
+- [GYNECOLOGY](specialty)
+- [INTERNAL MEDICINE](specialty)
+- [NEPHROLOGY](specialty)
+- [NEUROSURGERY](specialty)
+- [NEUROLOGY](specialty)
+- [NUTRITION & DIETETICS](specialty)
+- [OPHTHALMOLOGY](specialty)
+- [ORTHOPAEDIC](specialty)
+- [PULMONOLOGY](specialty)
+- [RHEUMATOLOGY](specialty)
+- [SPECIALIST PHYSICIAN ](specialty)
+- [UROLOGY](specialty)
+- [OBSTETRICS & GYNAECOLOGY](specialty)
+- [Cardiology](specialty)
+
+## intent:location_based_services
+- I need to know about [ambulances](service) services
+- I need to know about [ambulance](service) services
+- I need to know about [home check-up](service) services
+- I need to know about [delivery](service) services
+- can you tell me about [ambulance](service) services
+- can you tell me about [home check-up](service) services
+- can you tell me about [delivery](service) services
+- do you provide [ambulance](service)?
+- do you provide [home check-ups](service)?
+- do you provide [deliveries](service) at [place1](location)?
+- do you provide [ambulance](service) at [place2](location)?
+- do you provide [home check-ups](service) at [place3](location)?
+- do you provide [deliveries](service)?
+- I need to know about [delivery](service) at [place1](location)
+- I need to know about [ambulance](service) services at [place3](location)
+- I need to know about [home check-up](service) at [place2](location)
+- Tell me about your [ambulance](service) services
+- Tell me about your [home check ups](service)
+- Tell me about your [delivery](service) services
+- [ambulance](service)
+- [home check-ups](service)
+- [deliveries](service)
+
+## intent:goodbye
+- bye
+- bye bye
+- see ya
+- toodles
+- have a nice day
+- have a good one
+- goodbye
+- see you around
+- see you later
+- thanks and bye
+
+## intent:form_entry
+- My name is [Mehak](name)
+- myself [Mehakpreet Kaur](name)
+- my name is [Robin Sharrma](name)
+- name is [Arushi Tyagi](name)
+- I am [Mehul Chhajer](name)
+- I am [Mehakpreet Kaur](name)
+- I am [Brishti Bose](name)
+- I am [Rohan Kalia](name)
+- myself [Mehul Chhajer](name)
+- my name is [Brishti Bose](name)
+- my name is [Rohan Kalia](name)
+- [Mehakpreet](name)
+- [Mehakpreet Kaur](name)
+- [Kajal](name)
+- [Kajal Kaur Kapoor](name)
+- [Kavita](name)
+- [Kavita Beri](name)
+- [Ridhit](name)
+- [Ridhit Beri](name)
+- [Rajat](name)
+- [Rajat Beri](name)
+- [Harpuneet](name)
+- [Harpuneet Kaur](name)
+- [Parvinder](name)
+- [Parvinder Singh](name)
+- [Gunraj](name)
+- [Gunraj Singh](name)
+- [Akaash](name)
+- [Akaash Sharma](name)
+- My number is [123-456-7890](phone)
+- My phone number is [123-456-7890](phone)
+- My phoen number is [123-456-7890](phone)
+- numbr is [123-456-7890](phone)
+- my mobile is [123-456-7890](phone)
+- phone is [123-456-7890](phone)
+- It is [123-456-7890](phone)
+- numbr is [2017049762](phone)
+- my mobile is [9810047734](phone)
+- phone is [9810263548](phone)
+- It is [7263768329](phone)
+- [2013748392](phone)
+- [9810047734](phone)
+- [9810263548](phone)
+- [7263768329](phone)
+- [2846281028](phone)
+- [201-374-8392](phone)
+- [981-004-7734](phone)
+- [981-026-3548](phone)
+- [726-376-8329](phone)
+- [284-628-1028](phone)
+- My age is [12](age)
+- My aeg [15](age)
+- age is [21](age)
+- my age is [32](age)
+- aeg is [31](age)
+- I am [32](age) years old
+- [20](age)
+- [26](age)
+- [29](age)
+- [30](age)
+- My age is [13](age)
+- My aeg [12](age)
+- age is [20](age)
+- my age is [52](age)
+- aeg is [61](age)
+- I am [25](age) years old
+- [27](age)
+- hello, my name is [Mehak](name)
+- [2017049762](phone)
+- [19](age)
+- My name is [Kajal Kapoor](name)
+- My number is [9810283041](phone)
+- I'm [19](age) years old
+- [21](age)
+- [mekk](name)
+- [2017049832](phone)
+- [Arushi Tyagi](name)
+- [9910576342](phone)
+- [raj](name)
+- [2017049736](phone)
+
+## intent:affirm
+- yes
+- indeed
+- of course
+- exactly
+- perfect
+- yep
+- that sounds good
+- correct
+- mhm
+- Sure
+- sure
+
+## intent:deny
+- no
+- never
+- nope
+- nah
+- Not that
+- not at all
+- I don't think so
+- don't like that
+- no way
+- not really
+- no, thanks
+
+## intent:doc_name
+- [Dr. Karan ](doctor)
+- [Dr.Kumar](doctor)
+- [Dr. Singh](doctor)
+- [ Komal Singh ](doctor)
+- [Dr. Beri ](doctor)
+- Yes, [Dr. Tyagi](doctor)
+- [Dr. Kapoor](doctor)
+- yes, [Dr. Tyagi](doctor)
+- [Dr. Tyagi](doctor)
+- [Dr. Rakesh](doctor)
+
+## intent:pick_time
+- [1:30 pm Tomorrow](time)
+- [3:30 pm Tomorrow](time)
+- [2:30 pm Tomorrow](time)
+- [4:30 pm Tomorrow](time)
+
+## intent:bot_challenge
+- who am I talking to?
+- are you a bot?
+- are you a human?
+- am I talking to a bot?
+- am I talking to a human?
+
+## intent:thanks
+- thanks
+- thank you
+- thank you so much
+- thanks a lot
+- great!
+- grateful
+- im grateful
+- Great, thanks!
+
+## intent:make_appointment
+- Ineed to make an appointment
+- i need an appointment
+- I want to make an appointment
+- I need an appointment
+- I would like to arrange an appointment
+- Can I make an appointment
+- I want an appointment
+- Good, I need an appointment
